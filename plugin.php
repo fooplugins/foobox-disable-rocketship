@@ -9,7 +9,7 @@ License: GPL3
 */
 
 function foobox_disable_rocketship( $tag, $handle, $src ) {
-    if ( 'foobox-min' === $handle ) {
+    if ( 'foobox-min' === $handle || 'foobox-free-min' === $handle ) {
         $tag = str_replace( 'src=', 'data-cfasync="false" src=', $tag );
     }
     return $tag;
