@@ -6,6 +6,7 @@ Version: 0.0.1
 Author: FooPlugins
 Author URI: http://fooplugins.com
 License: GPL3
+*/
 
 function foobox_disable_rocketship( $tag, $handle, $src ) {
     if ( 'foobox-min' === $handle ) {
